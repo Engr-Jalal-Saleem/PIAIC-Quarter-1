@@ -11,3 +11,4 @@ const strippedName: string = personName.trim();
 // Print the stripped name
 console.log("\nStripped Name:");
 console.log(JSON.stringify(strippedName));
+export {};
