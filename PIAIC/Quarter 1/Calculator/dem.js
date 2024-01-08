@@ -1,9 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var enquirer_1 = require("enquirer");
+// Rest of your code
 var inquirer_1 = require("inquirer");
 function main() {
-    inquirer_1.default
-        .prompt([
+    inquirer_1.default;
+    (0, enquirer_1.prompt)([
         {
             type: "input",
             name: "num1",

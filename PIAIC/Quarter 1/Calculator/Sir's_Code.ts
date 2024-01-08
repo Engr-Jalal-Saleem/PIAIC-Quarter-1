@@ -1,3 +1,5 @@
+import { prompt } from 'enquirer';
+
 import inquirer from "inquirer";
 
 function main() {

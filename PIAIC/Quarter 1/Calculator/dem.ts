@@ -2,12 +2,14 @@
 import { prompt } from 'enquirer';
 
 // Rest of your code
+import inquirer
 
-
-import inquirer from "inquirer";
+//import inquirer from "inquirer";
 
 function main() {
-  inquirer
+        // Code goes here
+
+    inquirer
     prompt([
       {
         type: "input",
@@ -48,6 +50,7 @@ function main() {
         // Something else went wrong
       }
     });
+
 }
 
 function sum(num1: number, num2: number) {

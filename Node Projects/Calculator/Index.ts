@@ -1,8 +1,14 @@
+
+import { prompt } from 'enquirer';
+
+// Rest of your code
+
+
 import inquirer from "inquirer";
 
 function main() {
   inquirer
-    .prompt([
+    prompt([
       {
         type: "input",
         name: "num1",
@@ -22,17 +28,19 @@ function main() {
     ])
     .then((answers) => {
       console.log(answers);
-      //   if (operation == "+") {
-      //     sum(num1, num2);
-      //   } else if (operation == "-") {
-      //     subtract(num1, num2);
-      //   } else if (operation == "*") {
-      //     multiply(num1, num2);
-      //   } else if (operation == "/") {
-      //     division(num1, num2);
-      //   } else {
-      //     console.log("Invalid Operation");
-      //   }
+      let num1:number=5;
+      let num2:number=15;
+      if (operation == "+") {
+        sum(num1, num2);
+      } else if (operation == "-") {
+        subtract(num1, num2);
+      } else if (operation == "*") {
+        multiply(num1, num2);
+      } else if (operation == "/") {
+        division(num1, num2);
+      } else {
+        console.log("Invalid Operation");
+      }
       // Use user feedback for... whatever!!
     })
     .catch((error) => {
@@ -61,5 +69,4 @@ function division(num1: number, num2: number) {
   console.log("Division", result);
 }
 
-main(); 
-
+main();

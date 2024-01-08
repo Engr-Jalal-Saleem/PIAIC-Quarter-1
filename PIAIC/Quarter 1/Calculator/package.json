@@ -1,19 +1,21 @@
 {
-  "name": "calculator",
+  "name": "cal",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "inquirer": "^9.2.12"
-  },
   "devDependencies": {
-    "@types/inquirer": "^9.0.7"
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.10.7"
+  },
+  "dependencies": {
+    "enquirer": "^2.4.1",
+    "inquirer": "^3.3.0"
   }
 }

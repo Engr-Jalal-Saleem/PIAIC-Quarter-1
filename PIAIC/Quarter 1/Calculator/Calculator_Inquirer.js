@@ -23,32 +23,38 @@ function main() {
         /* Pass your questions in here */
     ])
         .then(function (answers) {
-        console.log(answers);
-        // Use user feedback for... whatever!!
-    })
-        .catch(function (error) {
-        if (error.isTtyError) {
-            // Prompt couldn't be rendered in the current environment
+        var num1 = Number(answers.num1);
+        var num2 = Number(answers.num2);
+        var operation = answers.Operation;
+        if (operation == "+") {
+            sum(num1, num2);
+        }
+        else if (operation == "-") {
+            subract(num1, num2);
+        }
+        else if (operation == "*") {
+            multlyply(num1, num2);
+        }
+        else if (operation == "/") {
+            division(num1, num2);
         }
         else {
-            // Something else went wrong
+            console.log("Invalid Operation");
         }
     });
-    // let num1: number = 5;
-    // let num2: number = 8;
-    // let operation: string = "+";
-    // if (operation == "+") {
-    //   sum(num1, num2);
-    // } else if (operation == "-") {
-    //   subract(num1, num2);
-    // } else if (operation == "*") {
-    //   multlyply(num1, num2);
-    // } else if (operation == "/") {
-    //   division(num1, num2);
-    // } else {
-    //   console.log("Invalid Operation");
-    // }
+    // Use user feedback for... whatever!!
 }
+try { }
+catch () { }
+(function (error) {
+    if (error.isTtyError) {
+        // Prompt couldn't be rendered in the current environment
+    }
+    else {
+        // Something else went wrong
+    }
+});
+;
 function sum(num1, num2) {
     var result = num1 + num2;
     console.log("Sum:", result);
