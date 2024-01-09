@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // Store a person's name with leading and trailing whitespace
 const personName = "\t   Engr. Jalal Saleem\n";
 // Print the name with whitespace
