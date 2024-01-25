@@ -1,0 +1,20 @@
+{
+  "name": "node-js-cli-calculator--app-template",
+  "version": "1.0.1",
+  "description": "This is a template for a Node.js CLI calculator app. It uses the Inquirer.js library to create a CLI interface for the user to interact with. The app is written in TypeScript and compiled to JavaScript. The app is packaged using the NPM package manager. This app is made up by using functions.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
