@@ -8,7 +8,7 @@
     "start": "tsc && node dist/main.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Engr. Jalal Saleem",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.12"
