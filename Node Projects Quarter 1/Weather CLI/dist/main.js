@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import axios from 'axios';
 import inquirer from 'inquirer';
 // Function to fetch weather data from the OpenWeatherMap API

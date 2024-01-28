@@ -1,6 +1,6 @@
 {
   "name": "weather-api-cli-based",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Weather CLI is a command-line interface application that fetches real-time weather data for a specified city using the OpenWeatherMap API.",
   "main": "index.js",
   "type": "module",
