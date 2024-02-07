@@ -1,0 +1,28 @@
+{
+  "name": "currency-convertor",
+  "version": "1.0.0",
+  "description": " A simple currency convertor using node.js and inquirer.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/main.js"
+  },
+  "keywords": [
+    "currency",
+    "convertor",
+    "exchange",
+    "rate"
+  ],
+  "author": "Engr. Jalal Saleem",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chalk": "^5.3.0",
+    "cli-spinners": "^2.9.2",
+    "inquirer": "^9.2.14"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/inquirer": "^9.0.7"
+  }
+}
