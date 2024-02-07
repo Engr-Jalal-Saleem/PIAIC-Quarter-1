@@ -1,0 +1,19 @@
+{
+  "name": "number-guessing-game-cli-based-app",
+  "version": "1.0.0",
+  "description": "This is the number guessing game. The computer will generate a random number between 1 and 100 and you have to guess it. You will be given 10 chances to guess the number. If you guess the number correctly, you win. If you run out of chances, you lose.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/main.js"
+  },
+  "keywords": ["number", "guessing", "game", "typescript", "node", "inquirer"],
+  "author": "Engr. Jalal Saleem",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.14"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
