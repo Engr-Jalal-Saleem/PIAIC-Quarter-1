@@ -1,6 +1,6 @@
 {
-  "name": "currency-convertor",
-  "version": "1.0.0",
+  "name": "currency-convertor-cli-based-app",
+  "version": "1.0.1",
   "description": " A simple currency convertor using node.js and inquirer.js",
   "main": "index.js",
   "type": "module",
